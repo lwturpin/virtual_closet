@@ -4,13 +4,15 @@
   <title>article</title>
  </head>
 <body>
-<div class="article">
-      <div class="title"><a rel="article" href="article.html">Red Rabble Sneaker</a></div>
-      <div class="description">Rabble Mid-Top Canvas Sneaker</div>
-      <div class="designer">Alexander McQueen</div>
-      <div class="color">red</div>
 
-      <form method="get" action="/usersearch"><input type="text" name="article" value=""/></form>
+<div itemscope itemtype="http://schema.org/Product">
+  <span itemprop="name">Red Rabble Sneaker</span>
+  <span itemprop="description">Rabble Mid-Top Canvas Sneaker</span>
+  <span itemprop="brand">Alexander McQueen</span>
+  <span itemprop="color">red</span>
+</div>
+
+<form method="get" action="/usersearch"><input type="text" name="article" value=""/></form>
 
 <form>
   <form method="POST" action="/article/">
