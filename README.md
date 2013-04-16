@@ -16,7 +16,7 @@ This service is a digital closet for users to record their articles of clothing.
 * title: Title of the article
 * description: Details of the article
 * allitems: The list of all articles in the global inventory collection
-* myitems: The list of all articles in the user's closet
+* userarticles: The list of all articles in the user's closet
 
 #Name Attribute Values#
 * item[ID]: Unique identifier for each article
