@@ -11,20 +11,42 @@
       Email: <div class="email"><a href="lturpin@live.unc.edu"></a></div>
 </div>
 
-<div class="mycloset">
-My Closet: <a href="http://digitalcloset.com/mycloset" rel="userarticles">My Closet</a>
-</div>
-
-<form method="get" action="/usersearch"><input type="text" name="article" value=""/></form>
-
 <form>
-  <form method="POST" action="/user/">
- Name: <input name="name" type="text"/>
- Email: <input name="email" type="text"/>
- Username: <input name="username" type="text"/>
+  <form method="PUT" action="/username">
+ 	Name: <input name="name" type="text"/>
+ 	Email: <input name="email" type="text"/>
+ 	Username: <input name="username" type="text"/>
 	Password: <input name="password" type="text"/>
 	<input type="submit"/>
 </form>
+
+<ul class="mycloset">
+  <li><!--add microdata!-->
+      <div class="title"><a rel="article" href="article.html">Red Rabble Sneaker</a></div>
+      <div class="description">Rabble Mid-Top Canvas Sneaker</div>
+      <div class="designer">Alexander McQueen</div>
+      <div class="color">red</div>
+      <div class="inventory">item1</div>
+  </li>
+  
+  <li>
+  	<div class="title"><a rel="article" href="article.html">Color Block V Dress</a></div>
+  	<div class="description">Long Blue Ivory and Red Color Block V-neck Dress</div>
+  	<div class="designer">Andree</div>
+  	<div class="color">blue</div>
+  	<div class="inventory">item2</div>
+  </li>
+
+<form>
+  <form method="POST" action="/username/"
+	<input name="name" type="text"/>
+  	<input description="description" type="text"/>
+  	<input brand="brand" type="text"/>
+  	<input color="color" type="text"/>
+  	<input type="submit"/>
+</form>
+
+<form method="GET" action="/allitems"><input type="text" name="article" value=""/></form>
 
 </body
 </html>
