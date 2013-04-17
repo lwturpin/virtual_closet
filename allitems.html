@@ -23,7 +23,15 @@
   </li>
 </ul>
 
-<form method="get" action="/usersearch"><input type="text" name="article" value=""/></form>
+<form method="POST" action="/article/">
+  <input name="name" type="text"/>
+  <input description="description" type="text"/>
+  <input brand="brand" type="text"/>
+  <input color="color" type="text"/>
+  <input type="submit"/>
+</form>
+
+<form method="GET" action="/usersearch"><input type="text" name="article" value=""/></form>
 
 </body>
 </html>
